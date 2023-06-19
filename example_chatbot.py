@@ -98,8 +98,8 @@ break_on_newline = not args.no_newline
 # Be nice to Chatbort
 
 min_response_tokens = 4
-max_response_tokens = 256
-extra_prune = 256
+max_response_tokens = 2000
+extra_prune = 2000
 
 print(past, end = "")
 ids = tokenizer.encode(past)
